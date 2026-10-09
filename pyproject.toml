@@ -1,0 +1,13 @@
+[build-system]
+requires = []
+build-backend = "workflow_foundry.build_backend"
+
+[project]
+name = "workflow-foundry"
+version = "0.1.0"
+description = "Local-first project retrieval and structured Ollama workflows"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+workflow-foundry = "workflow_foundry.cli:main"
